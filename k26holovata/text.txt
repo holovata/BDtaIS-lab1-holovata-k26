@@ -1,0 +1,65 @@
+1. Ввід 5 master-записів.
+2. Для 3-х master-записів ввести 1, 2 та підлеглі записи.
+3. ut-m, ut-s.
+4. Вилучити master-запис з двома підлеглими.
+5. Вилучити підлеглий запис від master-запису з 3-ма підлеглими.
+6. ut-m, ut-s.
+7. Ввід ще одного master-запису та підлеглого до нього запису.
+8. ut-m, ut-s.
+9. Оновити поле master-запису та поле підлеглого запису.
+10. ut-m, ut-s.
+
+insert-m
+1 cafe1 street1
+insert-m
+2 cafe2 street2
+insert-m
+3 cafe3 street3
+insert-m
+4 cafe4 street4
+insert-m
+5 cafe5 street5
+
+insert-s
+1 1 customer1 +380124568765
+
+insert-s
+2 3 customer2 +380987654321
+insert-s
+3 3 customer3 +380123456789
+
+insert-s
+4 4 customer4 +380542456346
+insert-s
+5 4 customer5 +380872346789
+insert-s
+6 4 customer6 +380998884455
+
+ut-m
+ut-s
+
+del-m
+3
+del-s
+5
+
+ut-m
+ut-s
+
+insert-m
+8 cafe8 street8
+insert-s
+9 8 customer9 +380765889356
+
+ut-m
+ut-s
+
+update-m
+8 NEWcafe8 NEWstreet8
+update-s
+9 8 NEWcustomer9 +380998887766
+
+ut-m
+ut-s
+
+exit

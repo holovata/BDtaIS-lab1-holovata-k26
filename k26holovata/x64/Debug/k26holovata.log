@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Work\k26\БДтІС\lab1 new\k26holovata\k26holovata\structures.h(26,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Work\k26\БДтІС\lab1 new\k26holovata\k26holovata\structures.h(27,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Work\k26\БДтІС\lab1 new\k26holovata\k26holovata\structures.h(61,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Work\k26\БДтІС\lab1 new\k26holovata\k26holovata\structures.h(62,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Work\k26\БДтІС\lab1 new\k26holovata\k26holovata\structures.h(67,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Work\k26\БДтІС\lab1 new\k26holovata\k26holovata\main.cpp(260,17): warning C4101: 'custId': unreferenced local variable
+  k26holovata.vcxproj -> C:\Work\k26\БДтІС\lab1 new\k26holovata\x64\Debug\k26holovata.exe
